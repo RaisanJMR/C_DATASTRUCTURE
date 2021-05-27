@@ -1,7 +1,7 @@
 # DATASTRUCTURES IN C
 
 
-| NO          | TOPICS                          |
+| index no          | topics                          |
 | :----------- | :-----------                      |
 | 1           | stack using array                |
 | 2           | stack using linked list          |
