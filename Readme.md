@@ -8,3 +8,4 @@
 | 3           | queue using array                |
 | 4           | circular queue using array       |
 | 5           | queue using linked list          |
+| 6           | Insertion Sort          |
