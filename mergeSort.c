@@ -74,4 +74,5 @@ void merge(int l, int mid, int r)
     }
     for (i = l; i <= r; i++)
         array[i] = temp[i];
-} /*end of merge()*/
+} 
+/*end of merge()*/
