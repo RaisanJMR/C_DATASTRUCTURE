@@ -10,3 +10,5 @@
 | 5           | queue using linked list          |
 | 6           | insertion sort                   |
 | 7           | merge sort                       |
+| 8           | quick sort                       |
+| 9           | double ended queue                      |
