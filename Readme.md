@@ -12,3 +12,4 @@
 | 7           | merge sort                       |
 | 8           | quick sort                       |
 | 9           | double ended queue                      |
+| 10           | postfix                      |
