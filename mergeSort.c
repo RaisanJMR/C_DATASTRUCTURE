@@ -17,6 +17,7 @@ int main()
     printf("-------------UNSORTED LIST-------------\n");
     for (i = 0; i < n; i++)
         printf("%d\t", array[i]);
+    printf("\n");
     merge_sort(0, n - 1);
     printf("\n-------------SORTED LIST---------------\n");
     for (i = 0; i < n; i++)
@@ -44,20 +45,22 @@ void merge(int l, int mid, int r)
     while ((i <= mid) && (j <= r))
     {
         if (array[i] <= array[j])
+
         {
             temp[k] = array[i];
-            i = i + 1;
-            k = k + 1;
+            i++;
+            k++;
         }
         else
         {
             temp[k] = array[j];
-            j = j + 1;
-            k = k + 1;
+            j++;
+            k++;
         }
     } /*end of while*/
     if ((i > mid) && (j <= r))
     {
+
         for (m = j; m <= r; m++)
         {
             temp[k] = array[m];
@@ -66,6 +69,7 @@ void merge(int l, int mid, int r)
     }
     if ((i <= mid) && (j > r))
     {
+
         for (m = i; m <= mid; m++)
         {
             temp[k] = array[m];
@@ -74,5 +78,5 @@ void merge(int l, int mid, int r)
     }
     for (i = l; i <= r; i++)
         array[i] = temp[i];
-} 
+}
 /*end of merge()*/
